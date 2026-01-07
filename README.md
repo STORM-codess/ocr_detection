@@ -1,15 +1,16 @@
 📄 Document Verifier System
 
-A Document Verification System that extracts key identity fields — Name, Date of Birth, and Address — from uploaded document images using OCR.
-The backend is built with FastAPI, and the frontend is implemented using Streamlit with a clean two-panel layout.
+The Document Verifier System is an end-to-end solution designed to automatically extract and validate key identity information from uploaded document images using Optical Character Recognition (OCR).
 
-🚀 Features
+The backend is developed using FastAPI, providing a robust and scalable REST API, while the frontend is built with Streamlit, offering an intuitive two-panel interface for seamless user interaction.
+
+🚀 Key Features
 
 Upload document images (PNG, JPG, JPEG)
 
-OCR-based text extraction
+OCR-based text extraction from documents
 
-Structured field extraction:
+Automated structured field extraction:
 
 🧑 Name
 
@@ -17,24 +18,24 @@ Structured field extraction:
 
 🏠 Address
 
-REST API built with FastAPI
+RESTful API powered by FastAPI
 
-Interactive Streamlit UI
+Interactive Streamlit user interface:
 
-Left panel → Upload & preview
+Left panel → Document upload & preview
 
-Right panel → Extracted details
+Right panel → Extracted and parsed details
 
-CORS-enabled backend (ready for deployment)
+CORS-enabled backend, ready for deployment
 
 🧠 Tech Stack
 Backend
 
-FastAPI
-
 Python
 
-OCR engine (Tesseract / EasyOCR /)
+FastAPI
+
+OCR Engine (Tesseract / EasyOCR)
 
 Frontend
 
